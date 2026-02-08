@@ -1,0 +1,28 @@
+/* The styling sheets header style with a color for background and the text positioning */
+header {
+    background-color: #3b3b3b;
+    text-align: center;
+}
+/* The styling sheets h3 formatting for the webpage */
+h3 {
+    font-size: 45px;
+    text-align: center;
+}
+/* The background color for main page body which has a darker grey color and font for the pages body */
+body {
+    background: #141111;    
+    font-family: DM-sans;
+}
+
+/* Image stlye for formatitng the two images */
+img {
+    width: 50%;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+/* Resource 2 selectors*/
+
+
+
