@@ -43,6 +43,7 @@ img {
 }
 
 /* Resource 2 IDS */
+/* linkin_park ID*/
 #linkin_park {
     background-color: #141111;
     padding: 12px;
@@ -51,6 +52,7 @@ img {
     border-left: 4px solid grey;
 }
 
+/* Albums ID*/
 #albums {
     background-color: #3b3b3b;
     padding: 14px;
@@ -59,6 +61,7 @@ img {
     border-left: 4px solid grey;
 }
 
+/* Footer ID*/
 #footer {
     text-align: center;
     padding: 20px;
@@ -66,11 +69,12 @@ img {
     border-top: 2px solid #3b3b3b;
 }
 /* Flexbot resource 3 */
+
 #song_album_wrapper {
     display: flex;
     gap: 20px;
 }
-
+/* Places the two sections side by side on the Index page*/
 #linkin_park, #albums {
     flex: 1;
 }
