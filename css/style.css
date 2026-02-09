@@ -2,27 +2,75 @@
 header {
     background-color: #3b3b3b;
     text-align: center;
+    color: white;
 }
 /* The styling sheets h3 formatting for the webpage */
 h3 {
     font-size: 45px;
     text-align: center;
+    color: white;
 }
 /* The background color for main page body which has a darker grey color and font for the pages body */
 body {
     background: #141111;    
-    font-family: DM-sans;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 }
-
+/*I dont exactly know why the font family above added so much I tried using Dm sans and it didnt work so I i went to switch the font and hit tab when gill sans came up and this is working */
 /* Image stlye for formatitng the two images */
 img {
-    width: 50%;
+    width: 30%;
     border-radius: 5px;
     display: block;
     margin: auto;
 }
 
-/* Resource 2 selectors*/
+/* Resource 2 classes*/
 
+.subheader {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 8px;
+}
 
+.button a {
+    color: #0051ff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
 
+/* Resource 2 IDS */
+#linkin_park {
+    background-color: #141111;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border-left: 4px solid grey;
+}
+
+#albums {
+    background-color: #3b3b3b;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border-left: 4px solid grey;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-top: 2px solid #3b3b3b;
+}
+/* Flexbot resource 3 */
+#song_album_wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+#linkin_park, #albums {
+    flex: 1;
+}
