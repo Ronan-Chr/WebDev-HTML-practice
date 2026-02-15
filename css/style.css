@@ -31,12 +31,12 @@ img {
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
-    color: rgb(148, 148, 148);
+    color: rgb(226, 226, 226);
     margin-bottom: 8px;
 }
 
 .button a {
-    color: #0051ff;
+    color: #00e1ff;
     text-decoration: none;
     padding: 10px;
     text-align: center;
