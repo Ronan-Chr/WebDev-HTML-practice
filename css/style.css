@@ -69,16 +69,16 @@ img {
     border-top: 2px solid #3b3b3b;
 }
 /* Flexbot resource 3 */
-
+/* Bootstrap replacement so Im commenting out the flexbot functions
 #song_album_wrapper {
     display: flex;
     gap: 20px;
 }
-/* Places the two sections side by side on the Index page*/
+/* Places the two sections side by side on the Index page*//*
 #linkin_park, #albums {
     flex: 1;
 }
-/* Flexbot media changing for different devices */
+/* Flexbot media changing for different devices *//*
 @media (max-width: 600px) {
     #song_album_wrapper {
         flex-direction: column;
@@ -86,3 +86,4 @@ img {
     }
     img { width: 65%}
 }
+/*
