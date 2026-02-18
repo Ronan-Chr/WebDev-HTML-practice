@@ -4,33 +4,42 @@
     <!--This is the Header for page 2 just telling what this is about the band members about page-->
     <title>Meet the Members of Linkin Park</title> 
     <!-- Bootstrap linking-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   
   <!-- Link to Your Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
   </head> 
+
   <body>
      <!--This is the header for page 2 describing the roles of different band members-->
-     <header id="main_page_style">
-         <h1>Linkin Parks Different Members</h1>
-         <p class="subheader">The Current Band is made up of Mike Shinoda rhythm guitarist, Emily Armstrong lead vocalist and rhythm guitarist, Brad Delson lead guitarist, Dave Farrel bass player, Joe Hahn turntable and mixing and lastly Colin Brittain, theres rumors of Alex Feder joining the band who was touring with them from 2024-2025</p>
-         <h2>Former Band Members</h2>
-         <p>Former members who have been apart of the band consists of Mark Wakefield the original lead vocalist, Chester Bennington who took over for Mark as lead vocalist and my personal favorite band member ever, Kyle Christner bass player, Rob Bourdon drummer and backroung vocalist and lastly a touring member who never officially joined Scott Koziol.</p>
+     <div class="container py-4">
+      <header id="main_page_style">
+         <h1 class="fw-semibold fs-1 text-center mb-3">Linkin Parks Different Members</h1>
+
+         <p class="fw-normal fs-3 text-center mb-1">The Current Band is made up of Mike Shinoda rhythm guitarist, Emily Armstrong lead vocalist and rhythm guitarist, Brad Delson lead guitarist, Dave Farrel bass player, Joe Hahn turntable and mixing and lastly Colin Brittain, theres rumors of Alex Feder joining the band who was touring with them from 2024-2025</p>
+        
+         <h2 class="fw-semibold fs-1 text-center mb-3">Former Band Members</h2>
+
+         <p class="fw-normal fs-4 text-center mb-1">Former members who have been apart of the band consists of Mark Wakefield the original lead vocalist, Chester Bennington who took over for Mark as lead vocalist and my personal favorite band member ever, Kyle Christner bass player, Rob Bourdon drummer and backroung vocalist and lastly a touring member who never officially joined Scott Koziol.</p>
      </header>
-     <main id="page1_content">
-        <section id="main_page_style">
-            <h3>Where it all Started</h3>
-            <p>Linkin Park is a iconic band in the rock genre known for unique vocals and heavy sounding instruments the band started when Mike Shinoda, Rob Bourdon and Brad Delson decided that they would start a band in California. The band over the next years created their first album but also were set on making a career out of things which is when they turned to record labels eventually signing a deal with Warner Bros. Records with the help of a mentor they had met named Jeff Blue who had recently taken over operations at Warner Bros Records.</p>
+
+     <main id="page1_content" class="mt-4">
+      <div class="container py-4">
+        <section class="col-12 col-md-8 mx-auto">
+          <h3 class="fw-bold">Where it all Started</h3>
+            <p class="fw fs-4 text-center mb-1">Linkin Park is a iconic band in the rock genre known for unique vocals and heavy sounding instruments the band started when Mike Shinoda, Rob Bourdon and Brad Delson decided that they would start a band in California. The band over the next years created their first album but also were set on making a career out of things which is when they turned to record labels eventually signing a deal with Warner Bros. Records with the help of a mentor they had met named Jeff Blue who had recently taken over operations at Warner Bros Records.</p>
         
       <!--Image of Linkin Park formatted to fit was way to large without the width modifier-->
-    <img alt="Linkin Park Currently" src="images/NewLinkin.jpg" />
-      <section id="members_section">
-      <p>Linkin Park gained popularity from the unique noises added to their rock music for the time period having very good foundations from the intstruments and then working their way up in popularity with the use of high and low pitched screams and elongated words which was relativly new for the time which helped create the cultlike fan base they have had for years to come.</p>
+    <img class="img-fluid rounded w-100" style="max-width: 900px" alt="Linkin Park Currently" src="images/NewLinkin.jpg" />
+      <div id="members_section">
+      <p class="fw-semibold">Linkin Park gained popularity from the unique noises added to their rock music for the time period having very good foundations from the intstruments and then working their way up in popularity with the use of high and low pitched screams and elongated words which was relativly new for the time which helped create the cultlike fan base they have had for years to come.</p>
+      
       <!--Making a point that i only like Linkin Park from when chester was apart of the band before he passed using h3 so its a smaller section heading then the top of the page-->
-      <h3>Members History of Whos been in and out of the Band</h3>
+      <h3 class="fw-bold mb-3">Members History of Whos been in and out of the Band</h3>
+
       <!--Unordered Listed songs of interest-->
       <p class="subheader">Brief List of When Members were in Linkin Park</p>
-        <ul>
+        <ul class="mb-0">
           <li>Mike Shinoda - Age 48 years old in the band 1996-Present </li>
           <li>Brad Delson - Age 48 years old in the band 1996-Present </li>
           <li>Joe Hahn - Age 48 years old in the band 1996-Present </li>
@@ -43,42 +52,59 @@
           <li>Kyle Christner - Age 48 years old in the band for just 1999 and due to lawsuits removed himself from the band </li>
         </ul>
       </section>
+      </div>
 
       <!--ordered Listed albums of interest-->
-    <section id="albums_section">
-    <h3>Albums From Linkin Park</h3>
-      <ol>
-        <li>Meteora
-          <img alt="Album Cover of Meteora" src="images/meteora.jfif"/>
-        </li>
-        <li>Hybrid Theory
-          <img alt="Album Cover of Hybrid Theory" src="images/hybrid theory.jfif"/>
-        </li>
-        <li>Minutes to Midnight
-          <img alt="Album Cover of Minutes to Midnight" src="images/minutes to midnight.jfif"/>
-        </li>
-        <li>A Thousand Suns
-          <img alt="Album Cover of A Thousand Suns" src="images/a thousand suns.jfif"/>
-        </li>
-        <li>Living Things
-          <img alt="Album Cover of Living Things" src="images/living things.jfif"/>
-        </li>
-        <li>The Hunting Party
-          <img alt="Album Cover of The Hunting Party" src="images/hunting party.jfif"/>
-        </li>
-        <li>One More Light
-          <img alt="Album Cover of One More Light" src="images/one more light.jfif"/>
-        </li>
-        <li>From Zero
-          <img alt="Album Cover of From Zero" src="images/from zero.jfif"/>
-        </li>
-      </ol>
-    </section>
-    </main>
-    <footer id="footer">
-    <h4>Go back to the Chester page!</h4>
-     <!--This is the internal link to the second page to the first-->
-    <p class="button"><a href="index.html">Click Here to go back to page 1</a></p>
-</footer>
-</body> 
+      <section id="albums" class="col-12 col-md-6 mx-auto">
+      <!--Margining from bootstrap using margin bottom 3 and centering title-->
+      <h3 class="subheader text-center mb-3">Albums From Linkin Park</h3>
+      <!--Margining from bootstrap using margin bottom 4 as a default for image list and margin bottom 0 for images between text as well as fonting with bootstrap-->
+        <ol class="mb-0">
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">Meteora</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of Meteora" src="images/meteora.jfif"/>
+          </li>
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">Hybrid Theory</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of Hybrid Theory" src="images\hybrid theory.jfif"/>
+          </li>
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">Minutes to Midnight</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of Minutes to Midnight" src="images\minutes to midnight.jfif"/>
+          </li>
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">A Thousand Suns</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of A Thousand Suns" src="images\a thousand suns.jfif"/>
+          </li>
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">Living Things</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of Living Things" src="images\living things.jfif"/>
+          </li>
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">The Hunting Party</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of The Hunting Party" src="images\hunting party.jfif"/>
+          </li>
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">One More Light</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of One More Light" src="images\one more light.jfif"/>
+          </li>
+          <li class="mb-4">
+            <div class="fw-semibold mb-2">From Zero</div>
+            <img class="img-fluid rounded" style="max-width:200px" alt="Album Cover of From Zero" src="images\from zero.jfif"/>
+          </li>
+        </ol>
+      </section>
+      </div>
+      </main>
+        <!--Margining from bootstrap using margin top 4 to help move it down in footer-->
+        <footer id="footer" class="mt-4">
+          <h4 class="text-center">Go back to the Chester page!</h4>
+
+          <!--This is the internal link to the second page to the first-->
+          <p class="text-center">
+            <a href="index.html" class="btn btn-primary">Click Here to go back to page 1</a>
+          </p>
+        </footer>
+      </div>
+  </body> 
 </html>
